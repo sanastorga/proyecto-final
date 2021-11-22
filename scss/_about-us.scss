@@ -1,0 +1,17 @@
+@import "complementario";
+
+/* seccion sobre nosotros*/
+.sectionNosotros{
+    padding: 5rem;
+    background: linear-gradient(0deg, grey 50%, lightgrey 100%);
+    .contenedorNosotros{
+        /*font-size: 2rem;*/
+        @extend %font;
+        .rowNosotros{
+            .columnas{
+                text-decoration: underline;
+            }
+        }
+
+    }
+}

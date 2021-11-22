@@ -1,0 +1,27 @@
+.contenedorImagenlogoSobreCarrusel{
+    width: 19rem;
+    height: 19rem;
+    display: flex;
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.479);
+    z-index: 9999999;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: 0 auto;
+
+}
+.logoSobreCarrusel{
+    z-index: 9999999;
+    position: relative;
+}
+.sesgado{
+    background-color: crimson;
+    
+}
+.sesgado:after{
+    position: absolute;
+    transform-origin: top left;
+    transform: skewX(2deg);
+    background: inherit;
+}

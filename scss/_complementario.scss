@@ -1,0 +1,11 @@
+/*desafio complementarios*/
+
+@mixin bgcolorinvet {
+    background-color: rgb(97, 97, 97);
+    color: antiquewhite;   
+}
+%font{
+    background-color: lightgray;
+    color: black;
+    font-size: 2rem;
+}

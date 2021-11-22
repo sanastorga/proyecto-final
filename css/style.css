@@ -1,0 +1,241 @@
+/*desafio complementarios*/
+.sectionNosotros .contenedorNosotros {
+  background-color: lightgray;
+  color: black;
+  font-size: 2rem;
+}
+
+/*general scss*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  /*background-color: lightgrey;*/
+  background-color: #616161;
+  color: antiquewhite;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+/*desafio complementarios*/
+.sectionNosotros .contenedorNosotros {
+  background-color: lightgray;
+  color: black;
+  font-size: 2rem;
+}
+
+/* seccion sobre nosotros*/
+.sectionNosotros {
+  padding: 5rem;
+  background: linear-gradient(0deg, grey 50%, lightgrey 100%);
+}
+.sectionNosotros .contenedorNosotros {
+  /*font-size: 2rem;*/
+}
+.sectionNosotros .contenedorNosotros .rowNosotros .columnas {
+  text-decoration: underline;
+}
+
+/*desafio complementarios*/
+.sectionNosotros .contenedorNosotros {
+  background-color: lightgray;
+  color: black;
+  font-size: 2rem;
+}
+
+/* section alucobond materiales */
+.sectionMaterial {
+  /*background-color: rgb(230, 229, 235);*/
+  background-color: #616161;
+  color: antiquewhite;
+  padding-top: 5rem;
+}
+.sectionMaterial .h3Aluco {
+  text-align: center;
+  padding-bottom: 3rem;
+  text-decoration: underline;
+}
+
+.alucobond {
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+h4 {
+  text-decoration: underline;
+}
+h4 h5 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* planilla de contacto*/
+.seccionContactanos {
+  background-color: darkgrey;
+  background-image: linear-gradient(to right, grey 50%, darkgrey 100%);
+}
+.seccionContactanos form {
+  width: 56.25em;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.625em 1.25em;
+  box-sizing: border-box;
+  border-radius: 0.44em;
+}
+.seccionContactanos form .h3Contactanos {
+  color: ivory;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: none;
+}
+
+textarea {
+  min-height: 6.25em;
+  max-height: 12.5em;
+  max-width: 100%;
+}
+
+.button {
+  background: darkgrey;
+  color: ivory;
+  padding: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: none;
+  transition: none;
+}
+
+/*footer*/
+footer {
+  padding: 40px 0;
+  background-color: #dbdbdb;
+  color: #000000;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+footer ul li {
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul a:hover {
+  opacity: 1;
+}
+
+footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+footer .social > a:hover {
+  opacity: 0.9;
+}
+
+/* galerias de imagenes de tranajos y clientes */
+/*galeria de trabajos*/
+.nuestrosTrabajos {
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+  background-image: linear-gradient(to right, lightgrey 50%, darkgrey 100%);
+}
+.nuestrosTrabajos .galeryContainer .galeryItem {
+  padding: 1.5rem;
+}
+
+/* galeria de obras */
+.h3Obras {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.sectionClientes {
+  background-color: #e3e9ee;
+  padding-bottom: 2rem;
+}
+.sectionClientes .h3Clientes {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+/*desafio complementarios*/
+.sectionNosotros .contenedorNosotros {
+  background-color: lightgray;
+  color: black;
+  font-size: 2rem;
+}
+
+.contenedorImagenlogoSobreCarrusel {
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.479);
+  z-index: 9999999;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: 0 auto;
+}
+
+.logoSobreCarrusel {
+  z-index: 9999999;
+  position: relative;
+}
+
+.sesgado {
+  background-color: crimson;
+}
+
+.sesgado:after {
+  position: absolute;
+  transform-origin: top left;
+  transform: skewX(2deg);
+  background: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */

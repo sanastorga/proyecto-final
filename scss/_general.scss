@@ -1,0 +1,17 @@
+@import "complementario";
+/*general scss*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+html {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    /*background-color: lightgrey;*/
+    @include bgcolorinvet;
+}
+h3{
+    font-size: 3rem;
+    letter-spacing: 3px;
+}

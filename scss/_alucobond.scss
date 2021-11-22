@@ -1,0 +1,25 @@
+@import "complementario";
+
+/* section alucobond materiales */
+.sectionMaterial{
+    /*background-color: rgb(230, 229, 235);*/
+    @include bgcolorinvet;
+    padding-top: 5rem;
+    .h3Aluco{
+        text-align: center;
+        padding-bottom: 3rem;
+        text-decoration: underline;
+        
+    }
+}
+.alucobond{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+h4{
+    text-decoration: underline;
+    h5{
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
