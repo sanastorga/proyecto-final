@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "<h1 align=\"center\">Hi 👋, I'm Santiago Astorga</h1>\r <h3 align=\"center\">A passionate frontend student</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanastorga/proyecto-final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanastorga/proyecto-final/issues"
+  },
+  "homepage": "https://github.com/sanastorga/proyecto-final#readme"
 }

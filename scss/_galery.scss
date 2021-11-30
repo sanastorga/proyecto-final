@@ -1,15 +1,6 @@
 /* galerias de imagenes de tranajos y clientes */
 /*galeria de trabajos*/
-.nuestrosTrabajos{
-    padding-bottom: 3rem;
-    padding-top: 5rem;
-    background-image: linear-gradient(to right, lightgrey 50%, darkgrey 100%);
-    .galeryContainer{
-        .galeryItem{
-            padding: 1.5rem;
-        }
-    }
-}
+
 /* galeria de obras */
 .h3Obras{
     text-transform: uppercase;
@@ -26,4 +17,55 @@
     padding-top: 5rem;
     padding-bottom: 2rem;
     }
+}
+.galeria {
+	display: flex;
+	transition: .3s;
+	background: rgb(190,200,186);
+	background: linear-gradient(90deg, rgba(190,200,186,1) 0%, rgba(255,255,255,1) 28%, rgba(190,200,186,1) 100%);
+	padding: 3rem;
+}	
+	
+.galeria-columna {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+.galeria-subtitulo:hover {
+	opacity: 1;
+}
+
+.galeria-figura {
+	position: relative;
+}
+
+.galeria-imagenes {
+	display: block;
+	width: 96%;
+	transition: .3s;
+	border-radius: 10px;		
+}
+
+.galeria-imagenes:hover {
+	transform: scale(1.1);
+}
+	
+.galeria-subtitulo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 25px 15px 15px;
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: white;
+	opacity: 0;
+	transition: .3s;
+}
+.galeria-trabajos{
+	background: rgb(190,200,186);
+	background: linear-gradient(90deg, rgba(190,200,186,1) 0%, rgba(255,255,255,1) 28%, rgba(190,200,186,1) 100%);	
 }
